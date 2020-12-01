@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Form.io Viewer</title>
+  <script type="text/javascript">document.write('<base href="' + location.pathname.replace(/\/$/, '') + '/">');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#1976d2">
+  <style>
+    .formio-loader {
+      position: relative;
+      min-height: 60px;
+    }
+
+    .loader-wrapper {
+      z-index: 1000;
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+      right: 0px;
+      background-color:rgba(0, 0, 0, 0.1);
+    }
+
+    .loader {
+      position:absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -30px;
+      margin-top: -30px;
+      z-index: 10000;
+      display: inline-block;
+      border: 6px solid #f3f3f3; /* Light grey */
+      border-top: 6px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+<link rel="stylesheet" href="styles.5399af663a8693d06bca.css"></head>
+<body>
+  <div id="loader" class="loader-wrapper"><div class="loader"></div></div>
+  <app-root></app-root>
+  <noscript>Please enable JavaScript to continue using this application.</noscript>
+<script src="runtime.fab6f2b8f30bcdb0680c.js" defer></script><script src="polyfills-es5.fb95270fb35ecb5787fc.js" nomodule defer></script><script src="polyfills.d5e6ee5239a98b6ef1fd.js" defer></script><script src="main.a6c1dff61f1cd0520680.js" defer></script></body>
+</html>
